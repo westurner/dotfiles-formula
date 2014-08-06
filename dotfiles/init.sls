@@ -1,11 +1,8 @@
 
-{% from "template/map.jinja" import template with context %}
+# Dotfiles source states
 
-template:
-  pkg:
-    - installed
-    - name: {{ template.pkg }}
-  service:
-    - running
-    - name: {{ template.service }}
-    - enable: True
+https://github.com/westurner/dotfiles:
+  git.latest:
+    - rev: develop
+    - target: /srv/repos/hg/dotfiles
+
