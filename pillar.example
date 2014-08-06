@@ -1,0 +1,3 @@
+dotfiles::
+  lookup:
+    master: dotfiles-master
